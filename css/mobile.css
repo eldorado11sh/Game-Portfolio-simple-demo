@@ -1,0 +1,276 @@
+@media (min-width: 1920px) {
+	body,
+	.additional-page,
+	.footer::after {
+		background-size: contain;
+	}
+
+	.footer-content {
+		height: 205px;
+	}
+}
+
+@media (max-width: 1919px) {
+	.bg-line {
+		display: none;
+	}
+}
+
+@media (min-width: 1440px) {
+	.container {
+		max-width: 1229px;
+	}
+}
+
+@media (max-width: 1800px) {
+	.header-wrapper_right-flex {
+		right: 50px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.header-menu li a i {
+		display: none;
+	}
+}
+
+@media (max-width: 1440px) {
+	.header-wrapper_left,
+	.header-wrapper_right {
+		width: auto;
+		justify-content: flex-start;
+	}
+	.header-wrapper-menu {
+		justify-content: flex-start;
+	}
+}
+@media (max-width: 1220px) {
+	.header-menu li {
+		padding: 0px 0px;
+	}
+	.header-menu li a {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1000px) {
+	.header {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		height: 50px;
+		z-index: 99;
+		background-color: #000;
+	}
+
+	.burger-menu {
+		display: block;
+		position: absolute;
+		left: 10px;
+		top: 7px;
+		transition: 0.3s;
+		z-index: 101;
+	}
+	.burger-menu span {
+		width: 30px;
+		height: 4px;
+		display: block;
+		background: #fff;
+		margin: 6px 0px;
+		transition: 0.3s;
+		position: relative;
+	}
+	.burger-menu.active {
+		left: 260px;
+		top: 12px;
+	}
+
+	.burger-menu.active span {
+		margin: 8px 0;
+	}
+	.burger-menu.active span:nth-child(1) {
+		transform: rotate(45deg);
+		top: 6px;
+	}
+	.burger-menu.active span:nth-child(2) {
+		display: none;
+	}
+	.burger-menu.active span:nth-child(3) {
+		transform: rotate(-45deg);
+		bottom: 6px;
+	}
+	.header-wrapper-menu_h {
+		display: block;
+		position: fixed;
+		left: -320px;
+		top: 0px;
+		width: 320px;
+		background: #000;
+		height: 100%;
+		padding-top: 70px;
+		transition: 0.3s;
+		z-index: 10;
+	}
+	.header-wrapper-menu_h.active {
+		left: 0px;
+	}
+	.header-wrapper-menu {
+		display: block;
+		height: 100%;
+		overflow-y: auto;
+	}
+	.header-menu {
+		display: block;
+		width: 100%;
+		padding-left: 30px;
+	}
+	.header-menu li a {
+		text-align: center;
+		font-size: 18px;
+	}
+	.header-menu li a i {
+		display: block;
+	}
+
+	.login-and-reg {
+		gap: 10px;
+	}
+
+	.langBlock-active {
+		height: 50px;
+		margin-right: 10px;
+	}
+
+	.login-button {
+		height: 40px;
+		width: 130px;
+	}
+
+	.header-wrapper_right-flex {
+		right: 10px;
+	}
+
+	.news-content-container {
+		gap: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo {
+		justify-content: center;
+		margin: 150px 0;
+		margin-top: 55px;
+	}
+	.logo-link > img {
+		width: 300px;
+	}
+
+	.slider-gallery .slick-slide .slide-text {
+		height: 210px;
+	}
+
+	.slider-gallery .slick-slide img {
+		bottom: 0;
+	}
+
+	.slider-gallery .slick-slide .slide-text-wrapper {
+		opacity: 1;
+	}
+
+	.rules-title > div {
+		gap: 10px;
+	}
+
+	.rules-text {
+		font-size: 14px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+
+	.news-title > div {
+		gap: 10px;
+	}
+
+	.news-post img {
+		margin-bottom: 15px;
+	}
+	.news-post-text {
+		font-size: 14px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+	.download-info {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.footer-container {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-self: center;
+		margin-top: 20px;
+	}
+
+	.footer-text {
+		text-align: center;
+	}
+
+	.footer-rights {
+		align-self: center;
+	}
+}
+
+@media (max-width: 500px) {
+	body,
+	.additional-page {
+		background-position-x: -890px;
+		background-position-y: 55px;
+	}
+
+	.article-text-container {
+		right: 50%;
+		transform: translateX(50%);
+		align-items: center;
+		text-align: center;
+	}
+	.news-slider {
+		max-width: 320px;
+	}
+}
+
+@media (max-width: 425px) {
+	.rules-title > div {
+		padding: 30px 10px;
+		justify-content: center;
+	}
+	.news-title > div {
+		padding: 30px 10px;
+	}
+}
+
+@media (max-width: 375px) {
+	.langBlock-active {
+		margin-right: 0px;
+	}
+	.login-and-reg {
+		gap: 5px;
+		font-size: 10px;
+	}
+	.login-button {
+		font-size: 10px;
+		width: 100px;
+	}
+
+	.news-slider {
+		padding: 0 10px;
+	}
+
+	.forum-btn {
+		margin-bottom: 30px;
+	}
+
+	.slider-gallery .slick-slide .slide-text {
+		padding: 0 30px;
+	}
+}

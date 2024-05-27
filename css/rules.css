@@ -1,0 +1,50 @@
+.rules-block {
+	width: 100%;
+	background-color: #101519;
+}
+
+.rules-title {
+	min-height: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.rules-title h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffc100;
+	text-transform: uppercase;
+}
+
+.rules-title > div {
+	width: 100%;
+	padding: 30px 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rules-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.rules-text {
+	font-size: 16px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+
+.rules-arrows {
+	display: flex;
+	line-height: 23px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background: url(../images/form-arrows.png) center no-repeat;
+	margin-bottom: 10px;
+}
+
+
